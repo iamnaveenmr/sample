@@ -1,1 +1,27 @@
-1234599
+
+https://jaxenter.com/spring-boot-tutorial-microservices-kubernetes-part-one-135490.html
+1. check cf is installed or not
+cf
+cf help 
+cf login -a api.run.pivotal.io
+cf push spring-helloworld-cf-iamnaveenmr -p C:\Users\739514\Desktop\spring-helloworld-cf\target\spring-helloworld-cf-0.0.1-SNAPSHOT.jar
+cf delete spring-helloworld-cf -r -f
+cf logout
+
+check and generate random name:
+cf push updatedemo -p updatedemo-0.0.1.jar --random-route 
+
+cf env spring-helloworld-cf-iamnaveenmr   --- know the data base details
+
+
+
+echo "# banking-repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/soumyasurabhi/banking-repo.git
+git push -u origin master
+
+
+git remote add origin https://github.com/soumyasurabhi/banking-repo.git
+git push -u origin master
